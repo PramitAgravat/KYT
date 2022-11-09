@@ -1,0 +1,6 @@
+module Pods_thekyt {
+  umbrella header "Pods-thekyt-umbrella.h"
+
+  export *
+  module * { export * }
+}

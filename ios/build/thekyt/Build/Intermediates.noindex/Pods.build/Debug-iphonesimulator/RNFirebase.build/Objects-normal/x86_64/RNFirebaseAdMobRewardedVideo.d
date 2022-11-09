@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/ios/RNFirebase/admob/RNFirebaseAdMobRewardedVideo.m \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Target\ Support\ Files/RNFirebase/RNFirebase-prefix.pch \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/ios/RNFirebase/admob/RNFirebaseAdMobRewardedVideo.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-DevSupport/React/RCTInspectorDevServerHelper.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-DevSupport/React/RCTPackagerConnection.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseCore/FirebaseCore.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseCore/FIRApp.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseCore/FIRConfiguration.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseCore/FIRLoggerLevel.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseCore/FIROptions.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseInstanceID/FirebaseInstanceID.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Headers/Private/FirebaseInstanceID/FIRInstanceID.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Crashlytics.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Modules/module.modulemap \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/ANSCompatibility.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Answers.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSStackFrame.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSReport.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSLogging.h \
+  /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/ios/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSAttributes.h

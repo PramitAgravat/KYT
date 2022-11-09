@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <com.otaliastudios.cameraview.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cameraGestureTap="autoFocus"
+        app:cameraAutoFocusMarker="@string/cameraview_default_autofocus_marker"
+        app:cameraGesturePinch="zoom"
+        app:cameraFacing="back"
+        app:cameraFlash="auto"
+        app:cameraAudio="off"
+        app:cameraMode="picture"
+        android:keepScreenOn="true" />
+    <ImageButton
+        android:layout_marginBottom="14dp"
+        android:id="@+id/capture"
+        android:src="@drawable/shutter_new"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>

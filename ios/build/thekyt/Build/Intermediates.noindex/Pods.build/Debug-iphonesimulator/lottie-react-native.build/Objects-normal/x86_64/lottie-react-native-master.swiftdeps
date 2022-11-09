@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "f83f77275401507a90fef8734579e9b8"
+build_time: [1569325152, 283014000]
+inputs:
+  "/Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/ios/LottieReactNative/AnimationViewManagerModule.swift": [499162500, 0]
+  "/Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/ios/LottieReactNative/ContainerView.swift": [499162500, 0]

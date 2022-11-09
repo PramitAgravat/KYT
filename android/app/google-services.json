@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "511097272588",
+    "firebase_url": "https://kyt-60.firebaseio.com",
+    "project_id": "kyt-60",
+    "storage_bucket": "kyt-60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511097272588:android:99af553cf75c920a",
+        "android_client_info": {
+          "package_name": "com.thekyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511097272588-t2uhijv1blf1m40h8ipgr9s1u5adcd7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqvwUP4gl0ucATL4DpJuTidw0OJya7Svk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511097272588-t2uhijv1blf1m40h8ipgr9s1u5adcd7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

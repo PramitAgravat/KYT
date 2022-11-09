@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#45C0CF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="camera_background">#8b8888</color>
+    <color name="camera_params_background">#99000000</color>
+
+    <drawable name="white">@android:color/white</drawable>
+    <color name="filter_text_color">#35475E</color>
+    <color name="transparent_dark_blue_color">#F235475E</color>
+
+    <color name="white">#FFF</color>
+</resources>

@@ -1,0 +1,4 @@
+/Users/shrenik/projects/nodejs/kyt/android/scanlibrary/src/main/jni/scan.cpp:122:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.

@@ -1,0 +1,958 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+MERGED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a84f7815c52824ab7af2fc92a3509ce9/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-push-notification] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:@react-native-community_async-storage] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_slider] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:lottie-react-native] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-android-open-settings] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-app-tour] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-app-tour/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fast-image] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-orientation] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-orientation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-pdf] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [:react-native-svg] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-youtube] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-youtube/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/02e568a315ad5a3577dadd08036da59c/jetified-react-native-0.60.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4451f70a92ea81318b794a72124b9ca4/firebase-core-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5c06473fc83654a47d9cdf65e83b29e9/firebase-analytics-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3bd6b37637f5562c2cd5036d26139806/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:2:1-52:12
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/45e98a6593cf479bdab76882b88dacd8/animated-gif-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-webp:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5243a8be8673ceba216683ce80455989/animated-webp-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:webpsupport:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03f88c0783bcbb8f4c7dd898465094ed/webpsupport-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/d8e9bfc2c79a8b7a1e718927ef9b274a/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3301c681c5373842d97414257ebd084f/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5fd5a0a0abeef247e9a2d3ee3585312f/lottie-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a0ff40ad0a0d200f546e9b54b903e55/jetified-taptargetview-1.12.0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9a16a552645728dc9adfac0a80ef0951/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f115198f6de4d98425689407baa91873/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-41:12
+MERGED from [:react-native-linear-gradient] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/429bb950f00400a5c7d115e4bc2d4c13/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3222d0828c122d4123acb81c1eb16f43/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c76ef13425fe592db0ab21f1e2f64d59/animated-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/78139aab02d520388d85164ad277849f/animated-drawable-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/171ad8cefff55ec509f91aaeff90bc43/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af526e621fa9a64eaa3995d0b42bb344/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0606e823593f4db9ef0b847ef4e0ca1f/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/997274c04f1c219a4ec5a3adeb292763/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944ad20324f9135c3345573aa1949ed9/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/63e5a959f81830f15a03b28c3cf6d76f/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/8b65828b099241e65c64d5cf61e750b3/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1d9fcef61935bf531a45eb4e3ca6cefb/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0a88692a5b97cdfa93c4cad1516d6fab/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7c18e0be2d16993df3bbed71b72a47ee/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a4df22736d928016d8e1fc0d4e448d36/play-services-measurement-base-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/efa8a348150d862581e6502391b2a77d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c472113bdf0d596e1b46c33e3c96bb4e/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9fba7baa878f6adf34732326d9d52a78/jetified-pdfium-android-1.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7684c337d6fbf6ad4077d1213ab0d818/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/68fec74cc8be06192266c9702b8a044c/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079bb272ac9583d5c8a866ffda3c44cf/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b269b7aa9be043731f8d667c68b87cd2/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a72c57fd738236f01fb40d217eecd5ab/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/caf02d6a7762197faf59040a2e851707/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03389b6db0ebd4ebabc44dd27e5043ce/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/bba79d546084c81bd0d74afad2e17b62/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/e41b9d00991cec7841c62aa0a25cc2a0/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/62fd06f3a4a42f7c7fa5afb2b6db315b/exoplayer-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/008904053e527620c8eacc6de289a59a/jetified-exoplayer-ui-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ee255d66549f5de53b22b57a8337de5e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c1170961c893bc25e24b75dc2865c481/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/475a9162df2b0354b68f864454be81e8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/272c221f9e9bff85a2dfd11de21f12d6/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f064a077f247bef65077696f56f3431f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2f45a4ab4aafc6d2255950323a07baef/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944a8f773064da2d3d8c4252db13afdc/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b414eb4e883b09aaacf294a53c5e8808/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c3e16af726eca6dcdea87208a100601f/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f341694f10921959f0cf4029a3c5ac4b/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af86619d9fc8508b97eda341de8e1b0a/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/975f5b7758d4c62caafb7c6be1d1c4cd/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a1c4c289027a77cb5b1bf82aa97847e/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55f859b7b3001ae47cff099d66c47025/jetified-extension-okhttp-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/88d099451480fd835eaafc9377cef9b9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55b19a5987cbd4513a0237dbe0793b45/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/106140af4ea3a26b534bf1031dcfeaa0/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f503ac7140421ed96d4d734fbd15a0e3/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/96638820a9ba7b14f057ab006d641d86/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af5e86af2a419bcf1d2cf545367db267/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/be66730fece76150a7b1c4d06afde57d/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/04f201536ad949ab80aec0de4a6b210e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9afc4b5f8969752b8b3667690a859737/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/29e694b1f5657f6930f1d55e0ba2c41a/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/189ef6c7ac4fde0d74f170d9d5ad172c/jetified-exoplayer-dash-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0f0a56d51d930b178401a837643040a9/jetified-exoplayer-hls-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2938785e956e997d22a47dd179ef1c05/jetified-exoplayer-smoothstreaming-2.9.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/51ee62ca774a4a2dc7e4f5b953e7a4c8/jetified-exoplayer-core-2.9.3/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7e512bff70b15834806f66ed24d2307d/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:4:5-25
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:4:5-25
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:1-88:12
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:6:5-76:19
+MERGED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:6:5-76:19
+MERGED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:6:5-76:19
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-26:19
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-26:19
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/02e568a315ad5a3577dadd08036da59c/jetified-react-native-0.60.5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/02e568a315ad5a3577dadd08036da59c/jetified-react-native-0.60.5/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4451f70a92ea81318b794a72124b9ca4/firebase-core-17.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4451f70a92ea81318b794a72124b9ca4/firebase-core-17.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5c06473fc83654a47d9cdf65e83b29e9/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5c06473fc83654a47d9cdf65e83b29e9/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3bd6b37637f5562c2cd5036d26139806/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3bd6b37637f5562c2cd5036d26139806/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3301c681c5373842d97414257ebd084f/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3301c681c5373842d97414257ebd084f/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:3.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5fd5a0a0abeef247e9a2d3ee3585312f/lottie-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5fd5a0a0abeef247e9a2d3ee3585312f/lottie-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f115198f6de4d98425689407baa91873/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f115198f6de4d98425689407baa91873/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-39:19
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-39:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/63e5a959f81830f15a03b28c3cf6d76f/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/63e5a959f81830f15a03b28c3cf6d76f/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/8b65828b099241e65c64d5cf61e750b3/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/8b65828b099241e65c64d5cf61e750b3/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1d9fcef61935bf531a45eb4e3ca6cefb/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1d9fcef61935bf531a45eb4e3ca6cefb/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:32:5-20
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:32:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0a88692a5b97cdfa93c4cad1516d6fab/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0a88692a5b97cdfa93c4cad1516d6fab/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7c18e0be2d16993df3bbed71b72a47ee/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7c18e0be2d16993df3bbed71b72a47ee/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a4df22736d928016d8e1fc0d4e448d36/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a4df22736d928016d8e1fc0d4e448d36/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/efa8a348150d862581e6502391b2a77d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/efa8a348150d862581e6502391b2a77d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/68fec74cc8be06192266c9702b8a044c/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/68fec74cc8be06192266c9702b8a044c/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f341694f10921959f0cf4029a3c5ac4b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f341694f10921959f0cf4029a3c5ac4b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/29e694b1f5657f6930f1d55e0ba2c41a/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/29e694b1f5657f6930f1d55e0ba2c41a/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:10:9-41
+	android:hardwareAccelerated
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-43
+	android:launchMode
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:12:9-39
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:12:9-39
+	tools:ignore
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:16:9-48
+	android:roundIcon
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:largeHeap
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:11:9-33
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:8:9-36
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:8:9-36
+	android:theme
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:14:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:7:9-40
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:7:9-40
+activity#com.thekyt.DemoActivity
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:17:9-59
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:17:19-47
+activity#com.thekyt.MainActivity
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:18:9-31:20
+	android:screenOrientation
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:21:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:23:13-55
+	android:configChanges
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:20:13-83
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:24:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:25:25-66
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:27:25-79
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:32:9-86
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:32:19-83
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:35:9-37:54
+	android:resource
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:37:13-51
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:36:13-83
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:39:9-41:71
+	android:value
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:41:13-68
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:40:13-89
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationReceiver
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:42:9-103
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:42:19-100
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:44:9-55:20
+	android:enabled
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:45:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:48:13-54:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:49:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:50:17-82
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:50:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:51:17-82
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:51:25-79
+category#android.intent.category.DEFAULT
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:53:27-73
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:56:9-60:19
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:56:18-91
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:57:13-59:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:58:17-78
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:58:25-75
+service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:63:9-104
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:63:18-101
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:77:5-67
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lottie-react-native] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:77:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:78:5-65
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-65
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-65
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:11:5-65
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:78:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:79:5-80
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-80
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:79:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:80:5-81
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-81
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:80:22-78
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:81:5-88
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:81:22-85
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:82:5-81
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:82:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:83:5-78
+MERGED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:83:5-78
+MERGED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:83:5-78
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:83:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:86:5-66
+	android:name
+		ADDED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml:86:22-63
+uses-sdk
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a84f7815c52824ab7af2fc92a3509ce9/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a84f7815c52824ab7af2fc92a3509ce9/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-push-notification] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_async-storage] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_slider] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_slider] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-android-open-settings] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-android-open-settings] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-app-tour] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-app-tour/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-app-tour] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-app-tour/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-orientation] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-orientation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-orientation] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-orientation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pdf] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-svg] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-youtube] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-youtube/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-youtube] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-youtube/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/02e568a315ad5a3577dadd08036da59c/jetified-react-native-0.60.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/02e568a315ad5a3577dadd08036da59c/jetified-react-native-0.60.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4451f70a92ea81318b794a72124b9ca4/firebase-core-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4451f70a92ea81318b794a72124b9ca4/firebase-core-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5c06473fc83654a47d9cdf65e83b29e9/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5c06473fc83654a47d9cdf65e83b29e9/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3bd6b37637f5562c2cd5036d26139806/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3bd6b37637f5562c2cd5036d26139806/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/45e98a6593cf479bdab76882b88dacd8/animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/45e98a6593cf479bdab76882b88dacd8/animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5243a8be8673ceba216683ce80455989/animated-webp-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5243a8be8673ceba216683ce80455989/animated-webp-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03f88c0783bcbb8f4c7dd898465094ed/webpsupport-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03f88c0783bcbb8f4c7dd898465094ed/webpsupport-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/d8e9bfc2c79a8b7a1e718927ef9b274a/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/d8e9bfc2c79a8b7a1e718927ef9b274a/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3301c681c5373842d97414257ebd084f/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3301c681c5373842d97414257ebd084f/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:3.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5fd5a0a0abeef247e9a2d3ee3585312f/lottie-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5fd5a0a0abeef247e9a2d3ee3585312f/lottie-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a0ff40ad0a0d200f546e9b54b903e55/jetified-taptargetview-1.12.0/AndroidManifest.xml:6:5-44
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a0ff40ad0a0d200f546e9b54b903e55/jetified-taptargetview-1.12.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9a16a552645728dc9adfac0a80ef0951/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9a16a552645728dc9adfac0a80ef0951/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f115198f6de4d98425689407baa91873/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f115198f6de4d98425689407baa91873/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/429bb950f00400a5c7d115e4bc2d4c13/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/429bb950f00400a5c7d115e4bc2d4c13/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3222d0828c122d4123acb81c1eb16f43/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/3222d0828c122d4123acb81c1eb16f43/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c76ef13425fe592db0ab21f1e2f64d59/animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c76ef13425fe592db0ab21f1e2f64d59/animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/78139aab02d520388d85164ad277849f/animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/78139aab02d520388d85164ad277849f/animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/171ad8cefff55ec509f91aaeff90bc43/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/171ad8cefff55ec509f91aaeff90bc43/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af526e621fa9a64eaa3995d0b42bb344/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af526e621fa9a64eaa3995d0b42bb344/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0606e823593f4db9ef0b847ef4e0ca1f/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0606e823593f4db9ef0b847ef4e0ca1f/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/997274c04f1c219a4ec5a3adeb292763/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/997274c04f1c219a4ec5a3adeb292763/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944ad20324f9135c3345573aa1949ed9/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944ad20324f9135c3345573aa1949ed9/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/63e5a959f81830f15a03b28c3cf6d76f/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/63e5a959f81830f15a03b28c3cf6d76f/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/8b65828b099241e65c64d5cf61e750b3/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/8b65828b099241e65c64d5cf61e750b3/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1d9fcef61935bf531a45eb4e3ca6cefb/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1d9fcef61935bf531a45eb4e3ca6cefb/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0a88692a5b97cdfa93c4cad1516d6fab/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0a88692a5b97cdfa93c4cad1516d6fab/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7c18e0be2d16993df3bbed71b72a47ee/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7c18e0be2d16993df3bbed71b72a47ee/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a4df22736d928016d8e1fc0d4e448d36/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a4df22736d928016d8e1fc0d4e448d36/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/efa8a348150d862581e6502391b2a77d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/efa8a348150d862581e6502391b2a77d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c472113bdf0d596e1b46c33e3c96bb4e/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c472113bdf0d596e1b46c33e3c96bb4e/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9fba7baa878f6adf34732326d9d52a78/jetified-pdfium-android-1.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9fba7baa878f6adf34732326d9d52a78/jetified-pdfium-android-1.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7684c337d6fbf6ad4077d1213ab0d818/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7684c337d6fbf6ad4077d1213ab0d818/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/68fec74cc8be06192266c9702b8a044c/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/68fec74cc8be06192266c9702b8a044c/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079bb272ac9583d5c8a866ffda3c44cf/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079bb272ac9583d5c8a866ffda3c44cf/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b269b7aa9be043731f8d667c68b87cd2/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b269b7aa9be043731f8d667c68b87cd2/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a72c57fd738236f01fb40d217eecd5ab/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a72c57fd738236f01fb40d217eecd5ab/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/caf02d6a7762197faf59040a2e851707/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/caf02d6a7762197faf59040a2e851707/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03389b6db0ebd4ebabc44dd27e5043ce/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/03389b6db0ebd4ebabc44dd27e5043ce/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/bba79d546084c81bd0d74afad2e17b62/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/bba79d546084c81bd0d74afad2e17b62/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/e41b9d00991cec7841c62aa0a25cc2a0/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/e41b9d00991cec7841c62aa0a25cc2a0/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/62fd06f3a4a42f7c7fa5afb2b6db315b/exoplayer-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/62fd06f3a4a42f7c7fa5afb2b6db315b/exoplayer-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/008904053e527620c8eacc6de289a59a/jetified-exoplayer-ui-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/008904053e527620c8eacc6de289a59a/jetified-exoplayer-ui-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ee255d66549f5de53b22b57a8337de5e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ee255d66549f5de53b22b57a8337de5e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c1170961c893bc25e24b75dc2865c481/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c1170961c893bc25e24b75dc2865c481/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/475a9162df2b0354b68f864454be81e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/475a9162df2b0354b68f864454be81e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/272c221f9e9bff85a2dfd11de21f12d6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/272c221f9e9bff85a2dfd11de21f12d6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f064a077f247bef65077696f56f3431f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f064a077f247bef65077696f56f3431f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2f45a4ab4aafc6d2255950323a07baef/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2f45a4ab4aafc6d2255950323a07baef/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944a8f773064da2d3d8c4252db13afdc/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/944a8f773064da2d3d8c4252db13afdc/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b414eb4e883b09aaacf294a53c5e8808/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/b414eb4e883b09aaacf294a53c5e8808/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c3e16af726eca6dcdea87208a100601f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c3e16af726eca6dcdea87208a100601f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/19e3ec49f9c07f9b935bdb86306a6748/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f341694f10921959f0cf4029a3c5ac4b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f341694f10921959f0cf4029a3c5ac4b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af86619d9fc8508b97eda341de8e1b0a/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af86619d9fc8508b97eda341de8e1b0a/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/975f5b7758d4c62caafb7c6be1d1c4cd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/975f5b7758d4c62caafb7c6be1d1c4cd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a1c4c289027a77cb5b1bf82aa97847e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1a1c4c289027a77cb5b1bf82aa97847e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55f859b7b3001ae47cff099d66c47025/jetified-extension-okhttp-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55f859b7b3001ae47cff099d66c47025/jetified-extension-okhttp-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/88d099451480fd835eaafc9377cef9b9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/88d099451480fd835eaafc9377cef9b9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55b19a5987cbd4513a0237dbe0793b45/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/55b19a5987cbd4513a0237dbe0793b45/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/106140af4ea3a26b534bf1031dcfeaa0/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/106140af4ea3a26b534bf1031dcfeaa0/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f503ac7140421ed96d4d734fbd15a0e3/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/f503ac7140421ed96d4d734fbd15a0e3/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/96638820a9ba7b14f057ab006d641d86/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/96638820a9ba7b14f057ab006d641d86/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af5e86af2a419bcf1d2cf545367db267/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/af5e86af2a419bcf1d2cf545367db267/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/be66730fece76150a7b1c4d06afde57d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/be66730fece76150a7b1c4d06afde57d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/04f201536ad949ab80aec0de4a6b210e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/04f201536ad949ab80aec0de4a6b210e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9afc4b5f8969752b8b3667690a859737/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/9afc4b5f8969752b8b3667690a859737/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/29e694b1f5657f6930f1d55e0ba2c41a/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/29e694b1f5657f6930f1d55e0ba2c41a/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/189ef6c7ac4fde0d74f170d9d5ad172c/jetified-exoplayer-dash-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/189ef6c7ac4fde0d74f170d9d5ad172c/jetified-exoplayer-dash-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0f0a56d51d930b178401a837643040a9/jetified-exoplayer-hls-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0f0a56d51d930b178401a837643040a9/jetified-exoplayer-hls-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2938785e956e997d22a47dd179ef1c05/jetified-exoplayer-smoothstreaming-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/2938785e956e997d22a47dd179ef1c05/jetified-exoplayer-smoothstreaming-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/51ee62ca774a4a2dc7e4f5b953e7a4c8/jetified-exoplayer-core-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/51ee62ca774a4a2dc7e4f5b953e7a4c8/jetified-exoplayer-core-2.9.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7e512bff70b15834806f66ed24d2307d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7e512bff70b15834806f66ed24d2307d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+MERGED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/51ee62ca774a4a2dc7e4f5b953e7a4c8/jetified-exoplayer-core-2.9.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/51ee62ca774a4a2dc7e4f5b953e7a4c8/jetified-exoplayer-core-2.9.3/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-25:20
+	android:grantUriPermissions
+		ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-72
+	android:exported
+		ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	tools:replace
+		ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-48
+	android:name
+		ADDED from [:react-native-share] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-55
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/0942040aaaa709a2bf065e0a9df6ab4d/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/1bc7ddea3d9a6fcafbbadb793fa14ac5/play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/14629e82a3d1be69952cd9547e5f7b5c/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/079e39ed4037c90a9b4d27eaa9848b4b/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/7694cb389354b499bedf4df130303513/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/4ac50d4070d2ae26573e71e9327d94f6/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/874a1f25e640cf96b5aee71c9ca64771/ShortcutBadger-1.1.21/AndroidManifest.xml:50:22-86
+uses-feature#android.hardware.camera
+ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:35
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:19:5-21:36
+MERGED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-47
+activity#com.scanlibrary.ScanActivity
+ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:20
+	android:label
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-45
+	android:configChanges
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-59
+	android:name
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-56
+activity#com.scanlibrary.CameraActivity
+ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-67
+	android:name
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:19-64
+provider#com.scanlibrary.CustomFileProvider
+ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-38:20
+	android:grantUriPermissions
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-47
+	android:authorities
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-76
+	android:exported
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [:library] /Users/pramitagravat/Documents/Pramit/Office/LiveProjects/thekyt/android/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-62
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/5dad4517f17ef3b438777ac70f69546c/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:12:13-84
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/dc260edfd43b4018cf0c2e22019bfe09/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/20206f3bb53c7e13a5b15f12734775c3/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a7cc41b38ab73e0a88f7d26c442a4b0a/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/a81086d8aba2503538deaf5e7e0aae5d/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.2.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/ac13a32176dd20b860e3d0a03170d809/cameraview-2.2.0/AndroidManifest.xml:29:9-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pramitagravat/.gradle/caches/transforms-2/files-2.1/c0f44a12461f31794ac020883309d1e7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

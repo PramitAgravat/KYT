@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+    <option name="COMMAND_LINE_OPTIONS" value="--warning-mode all" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3307614-0a28-4866-acff-0ddce24a866d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/.opencv2.framework.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Back.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Back.imageset/back-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Back.imageset/back-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Back.imageset/back-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Brand Assets.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Brand Assets.launchimage/Simulator Screen Shot 08-Nov-2016, 3.37.10 PM-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Brand Assets.launchimage/Simulator Screen Shot 08-Nov-2016, 3.37.10 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Brand Assets.launchimage/Simulator Screen Shot 09-Nov-2016, 3.03.32 PM-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Brand Assets.launchimage/Simulator Screen Shot 09-Nov-2016, 3.03.32 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Camera.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Camera.imageset/compact_camera_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Camera.imageset/compact_camera_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Camera.imageset/compact_camera_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraCapture.imageset/CameraShot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraCapture.imageset/CameraShot@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraCapture.imageset/CameraShot@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraCapture.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashAuto.imageset/CameraFlashAuto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashAuto.imageset/CameraFlashAuto@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashAuto.imageset/CameraFlashAuto@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashAuto.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashOff.imageset/CameraFlashOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashOff.imageset/CameraFlashOff@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashOff.imageset/CameraFlashOff@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/CameraFlashOff.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Cancel.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Cancel.imageset/delete_sign_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Cancel.imageset/delete_sign_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Cancel.imageset/delete_sign_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Crop.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Crop.imageset/crop_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Crop.imageset/crop_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Crop.imageset/crop_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Done.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Done.imageset/ok_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Done.imageset/ok_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Done.imageset/ok_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Gallery.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Gallery.imageset/gallery_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Gallery.imageset/gallery_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Gallery.imageset/gallery_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Left.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Left.imageset/rotate_left_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Left.imageset/rotate_left_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Left.imageset/rotate_left_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Retake.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Retake.imageset/refresh_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Retake.imageset/refresh_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Retake.imageset/refresh_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Right.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Right.imageset/rotate_right_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Right.imageset/rotate_right_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Right.imageset/rotate_right_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Switch.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Switch.imageset/switch_camera_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Switch.imageset/switch_camera_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/Switch.imageset/switch_camera_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomIN.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomIN.imageset/zoom_in_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomIN.imageset/zoom_in_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomIN.imageset/zoom_in_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomOUT.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomOUT.imageset/zoom_out_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomOUT.imageset/zoom_out_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/ZoomOUT.imageset/zoom_out_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite.imageset/overview_pages_1-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite.imageset/overview_pages_1-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite.imageset/overview_pages_1-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite_filled.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite_filled.imageset/overview_pages_1_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite_filled.imageset/overview_pages_1_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/blackwhite_filled.imageset/overview_pages_1_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/default_filled.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/default_filled.imageset/up2_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/default_filled.imageset/up2_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/default_filled.imageset/up2_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic.imageset/paint_palette-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic.imageset/paint_palette-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic.imageset/paint_palette-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic_filled.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic_filled.imageset/paint_palette_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic_filled.imageset/paint_palette_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/magic_filled.imageset/paint_palette_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit.imageset/no_edit-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit.imageset/no_edit-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit.imageset/no_edit-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit_filled.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit_filled.imageset/no_edit_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit_filled.imageset/no_edit_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/noedit_filled.imageset/no_edit_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original.imageset/edit-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original.imageset/edit-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original.imageset/edit-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original_filled.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original_filled.imageset/edit_filled-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original_filled.imageset/edit_filled-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Images.xcassets/original_filled.imageset/edit_filled-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/ProgressHUD/ProgressHUD.bundle/progresshud-error@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/ProgressHUD/ProgressHUD.bundle/progresshud-success@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/ProgressHUD/ProgressHUD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/ProgressHUD/ProgressHUD.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/.eng.cube.size.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/.eng.cube.word-freq.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/.eng.traineddata.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.cube.bigrams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.cube.fold" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.cube.lm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.cube.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.cube.params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/HKScanner/tessdata/eng.tesseract_cube.nn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.aab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/thekyt/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekyt/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libopencv_java3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key" beforeDir="false" afterPath="$PROJECT_DIR$/key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/images/floating/doctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/images/floating/doctorBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/images/floating/icons/Genetic-tests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/images/floating/icons/Hospital-discharge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/images/floating/icons/feelingBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/components/FloatingAction/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/config/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/KYCVerification/KYCVerificationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/KYCVerification/KYCVerificationView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/Profile/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/Profile/ProfileView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt.xcodeproj/xcshareddata/xcschemes/thekyt-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt.xcodeproj/xcshareddata/xcschemes/thekyt.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/thekyt/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/thekyt/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/thekyt/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/key" />
+    <option name="KEY_ALIAS" value="key1" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZppxQqywVx9jRFF6Sn94IPtUmr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3307614-0a28-4866-acff-0ddce24a866d" name="Default Changelist" comment="" />
+      <created>1569319709175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569319709175</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

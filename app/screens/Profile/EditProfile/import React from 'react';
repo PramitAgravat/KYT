@@ -1,0 +1,879 @@
+import React from 'react';
+import {
+  TouchableOpacity,
+  Image,
+  View,
+  Text,
+  Button,
+  TextInput,
+  Dimensions,
+  Platform,
+  Modal
+} from 'react-native';
+import ModalBox from 'react-native-modalbox';
+import RBSheet from 'react-native-raw-bottom-sheet';
+var FloatingLabel = require('react-native-floating-labels');
+import I18n from '../../global/configs/localization/i18n';
+import { Item, Input, Label } from 'native-base';
+const { width, height } = Dimensions.get('window');
+import { fontName, color, fontSize } from '../../lib/value';
+import styles from './style';
+import commonStyles from '../Styles/comonStyles';
+import BackArrow from '../../components/BackArrow/BackArrow';
+import SaveData from '../../components/SaveData/SaveData';
+import FastImage from "react-native-fast-image";
+import CountryPicker from "../../components/CountryPicker"
+import { API } from '../../services/api/api';
+import APPCONSTATNT from '../../services/api/appContsants';
+import SuccessModal from "../../components/SuccessModal";
+import Loader from "../../components/Loader";
+
+//import ImagePicker from 'react-native-image-picker';
+import ImagePicker from 'react-native-image-crop-picker';
+
+export default class Profile extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log("props Details=>" + props.route.params.visitiordetail.gender)
+    this.state = {
+      isLoding: false,
+      isSuccess:false,
+      title: '',
+      message: '',
+      isVisible: false,
+      visitiordetail: props.route.params.visitiordetail,
+      visitiorImage: { uri: props.route.params.visitiordetail.visitor_image },
+      visitiorName: props.route.params.visitiordetail.name,
+      selectGender: props.route.params.visitiordetail.gender,
+      visitiorEmail: props.route.params.visitiordetail.email,
+      newEmail: "",
+      currentPassword: '',
+      currentPasswordError: '',
+      newPassword: "",
+      newPasswordError: '',
+      confirmPassword: '',
+      confirmPasswordError: '',
+      phoneNo: props.route.params.visitiordetail.mobile_number,
+      phoneNoError: '',
+      newPhoneNo: '',
+      newPhoneNoError: '',
+      selectedCountry: "",
+      emailError: "",
+      visitiorNameInRBSheet: props.route.params.visitiordetail.name,
+    };
+  }
+
+  componentDidMount() {
+    console.log("Visitor Image", this.state.visitiorImage)
+  }
+
+  componentWillUnmount() {
+    this.props.route.params.getData()
+  }
+
+  openCamera(mediaType = 'photo') {
+    ImagePicker.openCamera({
+      cropping: true,
+      width: 500,
+      height: 500,
+      includeExif: true,
+      mediaType,
+    }).then(image => {
+      console.log('received image', image.path);
+      this.profileSheet.open(),
+        setTimeout(() => {
+          this.setState({
+            visitiorImage: { uri: image.path }
+          })
+        }, 10)
+      // this.updateProfilePic()
+    }).catch(e
+      // alert(e)
+    );
+  }
+
+  openGallery = () => {
+    ImagePicker.openPicker({
+      width: 500,
+      height: 500,
+      cropping: true,
+    }).then(image => {
+      console.log('received image', image);
+      this.profileSheet.open(),
+        setTimeout(() => {
+          this.setState({
+            visitiorImage: { uri: image.path }
+          })
+        }, 10)
+      // this.updateProfilePic()
+    }).catch(e => {
+      console.log(e);
+      // alert(e.message ? e.message : e);
+    });
+  }
+
+  updateProfile = () => {
+    this.profileSheet.close()
+    this.setState({ isLoding: true })
+    var photo = {
+      uri: this.state.visitiorImage,
+      type: 'image/jpeg',
+      name: 'photo.jpg',
+    };
+    var form = new FormData();
+    form.append("visitor_profile", photo);
+    form.append("visitor_id", APPCONSTATNT.GLOBAL.visitor_id);
+    form.append("action_type", "edit");
+    fetch(APPCONSTATNT.BASE_URL + APPCONSTATNT.API.EDIT_VISITOR_DETAIL, {
+      body: form,
+      method: "post",
+      headers: {
+        'Content-Type': 'multipart/form-data',
+        'Authorization': 'Bearer ' + APPCONSTATNT.GLOBAL.token,
+      }
+    }
+    ).then((response) => response.json())
+      .catch((error) => {
+        alert("ERROR " + error)
+      })
+      .then((responseData) => {
+        // this.setState({
+        //   isSuccess:true,
+        //   title: '',
+        //   message: 'Image Upladed Successfully'
+        // }, () => this.updateName())
+        console.log("Response Data", JSON.stringify(responseData))
+      }).done();
+  }
+
+  updateName = () => {
+    this.profileSheet.close()
+    let data = {
+      //full_name: this.state.visitiorName,
+      full_name: this.state.visitiorNameInRBSheet,
+      action_type: "edit",
+      add_edit_for: "app",
+      visitor_id: APPCONSTATNT.GLOBAL.visitor_id,
+    }
+    console.log(data);
+    API.updateVisitorDetail(this.getUpdateName, data, true)
+    APPCONSTATNT.GLOBAL.visitor_name = this.state.visitiorNameInRBSheet //visitiorName
+  }
+
+  getUpdateName = {
+    success: (response) => {
+      try {
+        console.log("Response Get", response)
+        this.setState({ visitiorName: this.state.visitiorNameInRBSheet, isLoding: false })
+      } catch (error) {
+      }
+    },
+    error: (err) => {
+      console.log("Get Error -->", err);
+    },
+    complete: () => {
+      console.log("Complete");
+    }
+  }
+
+  updateGender = () => {
+    this.genderSheet.close()
+    let data = {
+      gender: this.state.selectGender,
+      action_type: "edit",
+      add_edit_for: "app",
+      visitor_id: 122,
+    }
+    API.updateVisitorDetail(this.getUpdateProfile, data, true)
+  }
+
+  updateEmail = () => {
+
+    var isError = false;
+    var emailErrorlog = ""
+
+    if (this.state.newEmail == "") {
+      console.log("Email is empty");
+      emailErrorlog = "Please enter email";
+      isError = true;
+      //return;
+    }
+
+    if (this.state.newEmail != "") {
+      console.log("Email =>" + this.state.newEmail);
+      let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (reg.test(this.state.newEmail) === false) {
+        console.log("Email is Not Correct");
+        emailErrorlog = "Email is Not Correct"
+        isError = true;
+        //return;
+      }
+    }
+    if (isError) {
+      console.log("Error")
+      this.setState({
+        emailError: emailErrorlog,
+      })
+      return
+    } else {
+      this.emailSheet.close()
+      let data = {
+        old_email: this.state.visitiorEmail,
+        email: this.state.newEmail,
+        action_type: "edit",
+        add_edit_for: "app",
+        visitor_id: 122,
+      }
+      // console.log("updateEmail", data)
+      API.updateVisitorDetail(this.getUpdateProfile, data, true)
+    }
+  }
+
+  updatePhoneNo = () => {
+
+    var isError = false;
+    var phoneErrorlog = ""
+
+    if (this.state.newPhoneNo == "") {
+
+      phoneErrorlog = "Please phone no";
+      isError = true;
+      //return;
+    }
+
+    if (this.state.newPhoneNo.length < 10) {
+      //console.log("Email =>" + this.state.email);
+      phoneErrorlog = "enter valid phone no"
+      isError = true;
+      //return;
+    }
+    if (isError) {
+      console.log("Error")
+      this.setState({
+        phoneNoError: phoneErrorlog,
+      })
+      //return
+    } else {
+      this.phoneSheet.close()
+      let data = {
+        old_phone: this.state.phoneNo,
+        new_phone: this.state.newPhoneNo,
+        prefix: "+" + this.state.selectedCountry.dialCode,
+        action_type: "edit",
+        add_edit_for: "app",
+        visitor_id: 122,
+      }
+      API.updateVisitorDetail(this.getUpdateProfile, data, true)
+    }
+  }
+
+  updatePassword = () => {
+
+    var isError = false;
+    var currpwdErrorlog = ""
+    var newpwdErrorlog = ""
+    var confpwdErrorlog = ""
+
+    if (this.state.currentPassword == "") {
+
+      currpwdErrorlog = "Please enter current password";
+      isError = true;
+      //return;
+    }
+
+    if (this.state.newPassword == "") {
+
+      newpwdErrorlog = "Please enter new password";
+      isError = true;
+      //return;
+    }
+
+    if (this.state.confirmPassword == "") {
+
+      confpwdErrorlog = "Please enter confirm password";
+      isError = true;
+      //return;
+    }
+
+    if (this.state.newPassword != this.state.confirmPassword) {
+      //console.log("Email =>" + this.state.email);
+      confpwdErrorlog = "password and confirmed password are not same"
+      isError = true;
+      //return;
+    }
+
+    if (isError) {
+      console.log("Error")
+      this.setState({
+        currentPasswordError: currpwdErrorlog,
+        newPasswordError: newpwdErrorlog,
+        confirmPasswordError: confpwdErrorlog
+      })
+      //return
+    } else {
+      this.passwordSheet.close()
+      let data = {
+        old_password: this.state.currentPassword,
+        new_password: this.state.newPassword,
+        confirm_password: this.state.confirmPassword,
+        action_type: "edit",
+        add_edit_for: "app",
+        visitor_id: 122,
+      }
+      console.log("updatePassword", data)
+      // API.updateVisitorDetail(this.getUpdateProfile, data, true)
+    }
+  }
+
+  getUpdateProfile = {
+    success: (response) => {
+      try {
+        console.log("Response Get", response)
+        this.setState({ visitiorName: this.state.visitiorNameInRBSheet })
+      } catch (error) {
+      }
+    },
+    error: (err) => {
+      console.log("Get Error -->", err);
+    },
+    complete: () => {
+      console.log("Complete");
+    }
+  }
+
+  imagePicker = () => {
+    this.profileSheet.close(),
+      setTimeout(() => {
+        this.setState({
+          isVisible: true,
+        })
+      }, 300)
+  }
+
+  onClose() {
+    this.setState({
+      isSuccess: false,
+      title: '',
+      message: ''
+    })
+  }
+
+  render() {
+    console.log("this.state.visitiorImage", this.state.visitiorImage.uri)
+    return (
+      <View style={styles.container}>
+        <SuccessModal title={this.state.title} body={this.state.message} isVisible={this.state.isSuccess}
+          onClose={() => this.onClose()} backDropClose={true} swipeClose={true} />
+        <Loader loading={this.state.isLoding} transparent={true} />
+        <ModalBox
+          style={{
+            paddingHorizontal: 25,
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: 200,
+            width: width * 0.9,
+            backgroundColor: '#f5f5f5',
+            borderRadius: 20,
+          }}
+          position={"center"}
+          backdropPressToClose={false} swipeToClose={false} isOpen=
+          {this.state.isVisible}>
+          <TouchableOpacity
+            onPress={() => this.setState({ isVisible: false }, () => this.openCamera())}
+            style={{ justifyContent: 'center', alignItems: 'center', flex: 0.5, margin: 2 }}>
+            <Text style={styles.titleText}>
+              Open Camera
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.setState({ isVisible: false }, () => this.openGallery())}
+            style={{ justifyContent: 'center', alignItems: 'center', flex: 0.5, margin: 2 }}>
+            <Text style={styles.titleText}>
+              Open Gallery
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.setState({ isVisible: false })}
+            style={{ justifyContent: 'center', alignItems: 'center', flex: 0.5, margin: 2 }}>
+            <Text style={styles.titleText}>
+              Cancel
+            </Text>
+          </TouchableOpacity>
+        </ModalBox>
+        <View style={{ marginTop: Platform.OS == 'ios' ? 45 : 0 }}>
+          <BackArrow navigateTo={() => this.props.navigation.navigate("MyTabs")} />
+          {/* <BackArrow navigateTo={() => this.props.navigation.goBack()} /> */}
+        </View>
+        <View style={styles.icon}>
+          {/* <Image
+            source={require('../../images/profile/profile.png')}
+            style={{ width: 100, height: 100, borderRadius: 100 }}
+            resizeMode={'contain'}
+          />
+          <Text style={styles.name}>Michael Cane</Text> */}
+          {this.state.visitiorImage === "" ? <FastImage
+            resizeMode={FastImage.resizeMode.contain}
+            // source={{ uri: this.state.visitiordetail.visitor_image }}
+            source={require("../../images/user.png")}
+            style={{ width: 100, height: 100, borderRadius: 100 }}
+          /> :
+            <FastImage
+              resizeMode={FastImage.resizeMode.contain}
+              source={{ uri: this.state.visitiorImage.uri }}
+              // source={item.image}
+              style={{ width: 100, height: 100, borderRadius: 100 }}
+            />
+          }
+          <Text style={styles.name}>{this.state.visitiorName}</Text>
+        </View>
+        <View style={styles.hr} />
+
+        <View style={styles.emailcontainer}>
+          <Text style={styles.emaltext}>{this.state.visitiorEmail}</Text>
+          <Text style={styles.phoneext}>{this.state.phoneNo}</Text>
+        </View>
+        <View style={{ marginTop: 25 }}>
+          <Text
+            style={styles.profiletext}
+            onPress={() => this.profileSheet.open()}>
+            {I18n.t('accountSetting.title1')}
+          </Text>
+          <Text
+            style={styles.profiletext}
+            onPress={() => this.genderSheet.open()}>
+            {I18n.t('accountSetting.title2')}
+          </Text>
+          <Text
+            style={styles.profiletext}
+            onPress={() => this.emailSheet.open()}>
+            {I18n.t('accountSetting.title3')}
+          </Text>
+          <Text
+            style={styles.profiletext}
+            onPress={() => this.phoneSheet.open()}>
+            {I18n.t('accountSetting.title4')}
+          </Text>
+          <Text
+            style={styles.profiletext}
+            onPress={() => this.passwordSheet.open()}>
+            {I18n.t('accountSetting.title5')}
+          </Text>
+        </View>
+
+        <RBSheet
+          ref={ref => {
+            this.profileSheet = ref;
+          }}
+          height={358}
+          duration={250}
+          closeOnDragDown={true}
+          customStyles={{
+            container: {
+              borderTopStartRadius: 50,
+              borderTopEndRadius: 50,
+              justifyContent: 'center',
+              alignItems: 'center',
+            },
+          }}>
+          <View style={{ marginTop: 20 }}>
+            <View style={styles.icon}>
+              {/* <Image
+                source={require('../../images/profile/profile.png')}
+                style={{ width: 100, height: 100, borderRadius: 100 }}
+                resizeMode={'contain'}
+              />
+              <TextInput placeholder="Michael Cane" style={styles.inputText} /> */}
+              {/* <Image
+                  source={{
+                    uri: 'data:image/jpeg;base64,' + this.state.visitiorImage,
+                  }}
+                  style={{ width: 100, height: 100, borderRadius: 100 }}
+                  resizeMode={'contain'}
+                ></Image> */}
+              {this.state.visitiorImage === "" ? <TouchableOpacity
+                onPress={() => this.imagePicker()}>
+                <FastImage
+                  resizeMode={FastImage.resizeMode.contain}
+                  // source={{ uri: this.state.visitiordetail.visitor_image }}
+                  source={require("../../images/user.png")}
+                  style={{ width: 100, height: 100, borderRadius: 100 }}
+                /></TouchableOpacity> :
+                <TouchableOpacity onPress={() => this.imagePicker()}>
+                  <FastImage
+                    resizeMode={FastImage.resizeMode.contain}
+                    // source={{ uri: this.state.visitiordetail.visitor_image }}
+                    source={{ uri: this.state.visitiorImage.uri }}
+                    style={{ width: 100, height: 100, borderRadius: 100 }}
+                  />
+                </TouchableOpacity>
+              }
+              <TextInput
+                placeholder={this.state.visitiorNameInRBSheet} style={styles.inputText}
+                onChangeText={text => this.setState({ visitiorNameInRBSheet: text })}
+                value={this.state.visitiorNameInRBSheet}
+              />
+            </View>
+            <SaveData
+              lable={I18n.t('accountSetting.save')}
+              navigateTo={() => this.updateName()}
+            />
+          </View>
+        </RBSheet>
+
+        <RBSheet
+          ref={ref => {
+            this.genderSheet = ref;
+          }}
+          height={300}
+          duration={250}
+          closeOnDragDown={true}
+          customStyles={{
+            container: {
+              borderTopStartRadius: 50,
+              borderTopEndRadius: 50,
+              justifyContent: 'center',
+              alignItems: 'center',
+            },
+          }}>
+          <View style={[styles.rbSheetView, { flex: 1 }]}>
+            <Text style={styles.titleText}>Gender</Text>
+            <View style={styles.genderContainer}>
+              <TouchableOpacity
+                activeOpacity={0.99}
+                onPress={() => this.setState({ selectGender: "male" })}
+                style={styles.genderView}>
+                <View
+                  style={[
+                    styles.genderRadioButton,
+                    {
+                      backgroundColor:
+                        this.state.selectGender == "male" ? color.textColor : null,
+                    },
+                  ]}
+                />
+                <Text
+                  style={[
+                    styles.genderText,
+                    {
+                      color:
+                        this.state.selectGender == "male" ? '#000000' : '#b7b7b9',
+                    },
+                  ]}>
+                  {I18n.t('genderChange.male')}
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.99}
+                onPress={() => this.setState({ selectGender: "female" })}
+                style={styles.genderView}>
+                <View
+                  style={[
+                    styles.genderRadioButton,
+                    {
+                      backgroundColor:
+                        this.state.selectGender == "female" ? color.textColor : null,
+                    },
+                  ]}
+                />
+                <Text
+                  style={[
+                    styles.genderText,
+                    {
+                      color:
+                        this.state.selectGender == "female" ? '#000000' : '#b7b7b9',
+                    },
+                  ]}>
+                  {I18n.t('genderChange.female')}
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.99}
+                onPress={() => this.setState({ selectGender: "other" })}
+                style={styles.genderView}>
+                <View
+                  style={[
+                    styles.genderRadioButton,
+                    {
+                      backgroundColor:
+                        this.state.selectGender == "other" ? color.textColor : null,
+                    },
+                  ]}
+                />
+                <Text
+                  style={[
+                    styles.genderText,
+                    {
+                      color:
+                        this.state.selectGender == "other" ? '#000000' : '#b7b7b9',
+                    },
+                  ]}>
+                  {I18n.t('genderChange.other')}
+                </Text>
+              </TouchableOpacity>
+            </View>
+            <View
+              style={{
+                marginTop: 15,
+                backgroundColor: '#d2d2d2',
+                height: 1,
+              }}
+            />
+            <SaveData
+              lable={I18n.t('accountSetting.save')}
+              navigateTo={() => this.updateGender()}
+            />
+          </View>
+        </RBSheet>
+
+        <RBSheet
+          ref={ref => {
+            this.emailSheet = ref;
+          }}
+          height={375}
+          duration={250}
+          closeOnDragDown={true}
+          customStyles={{
+            container: {
+              borderTopStartRadius: 50,
+              borderTopEndRadius: 50,
+              // justifyContent: "center",
+              // alignItems: "center"
+            },
+          }}>
+          <View style={styles.rbSheetView}>
+            <Text style={styles.titleText}>{I18n.t('emailChage.title')}</Text>
+            <View style={{ marginTop: 27 }}>
+              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{}}>
+                  <Text
+                    style={{
+                      fontFamily: fontName.bold,
+                      fontSize: 10,
+                      color: '#b7b7b9',
+                    }}>
+                    {I18n.t('emailChage.currentEmail')}
+                  </Text>
+                  <Text
+                    style={{
+                      fontFamily: fontName.medium,
+                      fontSize: 15,
+                      color: '#000000',
+                    }}>
+                    {this.state.visitiorEmail}
+                    {/* minhanh.vd31@gmail.com */}
+                  </Text>
+                </View>
+                {/* {this.state.is} */}
+                <View style={{ justifyContent: 'flex-end', flex: 1 }}>
+                  <Image
+                    source={require('../../images/profile/tick-gray.png')}
+                    style={{ alignSelf: 'flex-end', width: 25, height: 50 }}
+                    resizeMode={'contain'}
+                  />
+                </View>
+                <View style={{ flex: 1, }}>
+                  <View style={{
+                    backgroundColor: color.textColor,
+                    width: 30,
+                    height: 30,
+                    borderRadius: 30,
+                    alignSelf: 'flex-end',
+                    justifyContent: 'center'
+                  }}>
+                    <Image
+                      source={require('../../images/profile/right.png')}
+                      style={{ alignSelf: 'center', width: 15, height: 15, alignItems: 'center' }}
+                      resizeMode={'contain'}
+                    />
+                  </View>
+                </View>
+              </View>
+              <Text
+                style={{
+                  fontFamily: fontName.semiBold,
+                  fontSize: 15,
+                  color: color.textColor,
+                  marginTop: 10,
+                  fontWeight: '600',
+                }}>
+                {I18n.t('emailChage.verifyEmail')}
+              </Text>
+            </View>
+            <FloatingLabel
+              labelStyle={styles.labelInput}
+              inputStyle={styles.input}
+              onChangeText={(text) => this.setState({ newEmail: text })}
+              style={styles.formInput}>
+              {I18n.t('emailChage.newEmail')}
+            </FloatingLabel>
+            <Text style={{
+              alignSelf: 'flex-end',
+              marginTop: 5,
+              color: color.textColor,
+              fontSize: 10,
+              fontFamily: fontName.bold,
+              letterSpacing: 0.6,
+            }}>{this.state.emailError}</Text>
+            <SaveData
+              lable={I18n.t('accountSetting.save')}
+              navigateTo={() => this.updateEmail()}
+            />
+          </View>
+        </RBSheet>
+
+        <RBSheet
+          ref={ref => {
+            this.phoneSheet = ref;
+          }}
+          height={375}
+          duration={250}
+          closeOnDragDown={true}
+          customStyles={{
+            container: {
+              borderTopStartRadius: 50,
+              borderTopEndRadius: 50,
+            },
+          }}>
+          <View style={styles.rbSheetView}>
+            <Text style={styles.titleText}>{I18n.t('phoneChange.title')}</Text>
+            <Item floatingLabel style={{ marginTop: 10, }}>
+              <Label style={styles.labelInput}>{I18n.t('phoneChange.currentNumber')}</Label>
+              <Input
+                maxLength={10}
+                keyboardType={'phone-pad'}
+                onChangeText={(text) => this.setState({ phoneNo: text })}
+                value={this.state.phoneNo}>
+              </Input>
+            </Item>
+            <View
+              style={{
+                marginTop: 10,
+                flexDirection: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}>
+              {/* <Text
+                style={{
+                  fontFamily: fontName.medium,
+                  color: '#000000',
+                  fontSize: 15,
+                  marginLeft: 50,
+                  bottom: -15,
+                }}>
+                +385 |
+              </Text> */}
+              <View style={{
+                justifyContent: 'flex-end',
+                height: 50,
+                //  bottom: -15, 
+              }}>
+                <CountryPicker selectedCountry={this.state.selectedCountry}
+                  onValueChange={(val) => this.setState({ selectedCountry: val })} />
+              </View>
+              <Item floatingLabel style={{ borderBottomWidth: 0, bottom: -12, }}>
+                <Label style={styles.labelInput}>{I18n.t('phoneChange.newPhoneNumber')}</Label>
+                <Input
+                  maxLength={10}
+                  keyboardType={'phone-pad'}
+                  onChangeText={(text) => this.setState({ newPhoneNo: text })}
+                  value={this.state.newPhoneNo}>
+                </Input>
+              </Item>
+            </View>
+            <Text style={{
+              alignSelf: 'flex-end',
+              marginTop: 5,
+              color: color.textColor,
+              fontSize: 10,
+              fontFamily: fontName.bold,
+              letterSpacing: 0.6,
+            }}>{this.state.phoneNoError}</Text>
+            <View
+              style={{
+                marginTop: 10,
+                backgroundColor: '#d2d2d2',
+                height: 2,
+              }}
+            />
+            <SaveData
+              lable={I18n.t('accountSetting.save')}
+              navigateTo={() => this.updatePhoneNo()}
+            />
+          </View>
+        </RBSheet>
+
+        <RBSheet
+          ref={ref => {
+            this.passwordSheet = ref;
+          }}
+          height={420}
+          duration={250}
+          closeOnDragDown={true}
+          customStyles={{
+            container: {
+              borderTopStartRadius: 50,
+              borderTopEndRadius: 50,
+              // justifyContent: "center",
+              // alignItems: "center"
+            },
+          }}>
+          <View style={styles.rbSheetView}>
+            <Text style={styles.titleText}>{I18n.t('passwordChange.password')}</Text>
+            <Item floatingLabel style={{ marginTop: 10 }}>
+              <Label style={styles.labelInput}>{I18n.t('passwordChange.currentPassword')}</Label>
+              <Input
+                secureTextEntry={true}
+                onChangeText={(text) => this.setState({ currentPassword: text })}
+                value={this.state.currentPassword}>
+              </Input>
+            </Item>
+            <Text style={{
+              alignSelf: 'flex-end',
+              marginTop: 5,
+              color: color.textColor,
+              fontSize: 10,
+              fontFamily: fontName.bold,
+              letterSpacing: 0.6,
+            }}>{this.state.confirmPasswordError}</Text>
+            <Item floatingLabel style={{ marginTop: 10 }}>
+              <Label style={styles.labelInput}>{I18n.t('passwordChange.newPassword')}</Label>
+              <Input
+                secureTextEntry={true}
+                onChangeText={(text) => this.setState({ newPassword: text })}
+                value={this.state.newPassword}>
+              </Input>
+            </Item>
+            <Text style={{
+              alignSelf: 'flex-end',
+              marginTop: 5,
+              color: color.textColor,
+              fontSize: 10,
+              fontFamily: fontName.bold,
+              letterSpacing: 0.6,
+            }}>{this.state.newPasswordError}</Text>
+            <Item floatingLabel style={{ marginTop: 10 }}>
+              <Label style={styles.labelInput}>{I18n.t('passwordChange.confirmNewPassword')}</Label>
+              <Input
+                secureTextEntry={true}
+                onChangeText={(text) => this.setState({ confirmPassword: text })}
+                value={this.state.confirmPassword}>
+              </Input>
+            </Item>
+            <Text style={{
+              alignSelf: 'flex-end',
+              marginTop: 5,
+              color: color.textColor,
+              fontSize: 10,
+              fontFamily: fontName.bold,
+              letterSpacing: 0.6,
+            }}>{this.state.confirmPasswordError}</Text>
+            <SaveData
+              lable={I18n.t('accountSetting.save')}
+              navigateTo={() => this.updatePassword()}
+            />
+          </View>
+        </RBSheet>
+      </View >
+    );
+  }
+}

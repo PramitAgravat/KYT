@@ -1,0 +1,57 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/shrenik/projects/nodejs/thekyt/android",
+      "sdkFolder": "/Users/shrenik/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/build/intermediates",
+      "gradleModulePathName": ":scanlibrary",
+      "moduleRootFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary",
+      "makeFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/shrenik/projects/nodejs/thekyt/android/.cxx",
+      "cxxFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx",
+      "ndkFolder": "/Users/shrenik/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a",
+  "jsonFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/shrenik/projects/nodejs/thekyt/android/scanlibrary/.cxx/ndkBuild/release/armeabi-v7a/compile_commands.json"
+}

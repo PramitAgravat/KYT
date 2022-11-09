@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.ActionsDialog">
+
+    <RelativeLayout style="@style/RelativeLayout.SettingsItem"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/lblQualities"
+            style="@style/TextView.CameraSettingsItemTitle"
+            android:text="@string/lbl_quality" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblQualities">
+
+            <Spinner
+                android:id="@+id/qualities"
+                style="@style/Spinner.CameraParamsItem"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/RelativeLayout.SettingsItem"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lblRatio"
+            style="@style/TextView.CameraSettingsItemTitle"
+            android:text="@string/lbl_ratio" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblRatio">
+
+            <Spinner
+                android:id="@+id/ratios"
+                android:layout_width="wrap_content"
+                style="@style/Spinner.CameraParamsItem"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout.SettingsItem"
+
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/lblFocusModes"
+            style="@style/TextView.CameraSettingsItemTitle"
+            android:text="@string/lbl_focus_mode" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblFocusModes">
+
+            <Spinner
+                android:id="@+id/focus_modes"
+                android:layout_width="wrap_content"
+                style="@style/Spinner.CameraParamsItem"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeHdr"
+        style="@style/RelativeLayout.SettingsItem">
+
+        <TextView
+            style="@style/TextView.CameraSettingsItemTitle"
+            android:text="@string/lbl_hdr" />
+
+        <Switch
+            android:id="@+id/switchHDR"
+            style="@style/Switch.SettingsItem" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/close"
+        style="@style/Button.ActionDialog"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbl_close"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
